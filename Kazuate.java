@@ -28,7 +28,7 @@ public class Kazuate{
 
             if(i == 4){
                 System.out.println("5回以内に成功しませんでした.");
-                System.out.println("正解は39です");
+                System.out.println("正解は39でした");
             }
         }
         
