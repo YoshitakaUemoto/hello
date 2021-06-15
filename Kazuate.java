@@ -12,7 +12,7 @@ public class Kazuate{
         for(int i=0;i<5;i++){
             num = scanner.nextInt();
             if(ans == num){
-                System.out.println("正解です.");
+                System.out.println("当たりです.");
                 break;
             }else{
                 if(ans>num){
