@@ -15,7 +15,12 @@ public class Kazuate{
                 System.out.println("正解です.");
                 break;
             }else{
-                System.out.println("違います。再入力してください。");
+                if(ans>num){
+                    System.out.println("正解より小さいです。再入力してください。");
+                }else{
+                    System.out.println("正解より大きいです。再入力してください。");
+                }
+                
                 if(Math.abs(num-ans)>=20){
                     System.out.println("正解と20以上離れています");
                 }
